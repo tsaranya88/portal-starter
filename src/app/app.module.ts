@@ -18,7 +18,6 @@ import { EmployerComponent } from './employer/employer.component';
     PortalModule
   ],
   exports: [EmployerComponent],
-  entryComponents: [EmployerComponent],
   declarations: [AppComponent, EmployerComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   bootstrap: [AppComponent]
